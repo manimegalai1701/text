@@ -7,7 +7,7 @@ from keras.layers import Dense, Dropout,LSTM
 from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
 
-file = open('f12.txt').read()
+file = open('fr.txt').read()
 
 import nltk
 nltk.download('stopwords')
